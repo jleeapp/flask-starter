@@ -1,6 +1,6 @@
 # Flask Starter
 
-### Project Structure
+## Project Structure
 
 ```
 flask-starter/
@@ -29,20 +29,53 @@ flask-starter/
 - **Requirements**: Lists the required Python packages.
 - **Run Script**: Provides a script to run the Flask application.
 
-### Running the Application
+## Running the Application
 
-**Install Dependencies:**
+### venv
+
+Create a virtual environment and activate it:
+
+```sh
+cd flask-starter
+python3 -m venv venv
+```
+
+activation:
+
+**Mac & Linux**
+
+```sh
+source venv/bin/activate
+```
+
+**Windows**
+
+To activate your venv on Windows, you need to run a script that gets installed by venv.
+
+Command Prompt:
+
+```sh
+venv\Scripts\activate
+```
+
+PowerShell:
+
+```sh
+venv\Scripts\Activate.ps1
+```
+
+### Install Dependencies
 
 ```
 pip install -r requirements.txt
 ```
 
-**Run the Application:**
+### Run the Application
 
 ```
 python run.py
 ```
 
-**Access the Application:** Open your web browser and navigate to http://localhost:5000.
+### Access the Application
 
-
+Open your web browser and navigate to http://localhost:5000.
