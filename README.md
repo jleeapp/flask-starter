@@ -42,7 +42,7 @@ python3 -m venv venv
 
 activation:
 
-**Mac & Linux**
+**macOS/Linux**
 
 ```sh
 source venv/bin/activate
@@ -50,18 +50,8 @@ source venv/bin/activate
 
 **Windows**
 
-To activate your venv on Windows, you need to run a script that gets installed by venv.
-
-Command Prompt:
-
 ```sh
 venv\Scripts\activate
-```
-
-PowerShell:
-
-```sh
-venv\Scripts\Activate.ps1
 ```
 
 ### Install Dependencies
